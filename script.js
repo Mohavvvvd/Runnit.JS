@@ -24,7 +24,7 @@ function runCode() {
     
     outputPanel.innerText = result || 'No output generated.';
   } catch (error) {
-    outputPanel.innerText = 'Error:  ${error.message}';
+    outputPanel.innerText = 'Error:  ${error}';
   }
 }
 
